@@ -110,6 +110,6 @@ model.evaluate(X_test, y_test)
 model.save('modelo.h5')  # Guarda el modelo
 
 # Uso de la función de predicción con un archivo nuevo
-file_path = '/home/juan/ML/data/no-fall/2/data2.csv'  # Actualiza esto a la ruta de tu archivo CSV
-prediction = predict_from_csv(file_path, model, scaler)
-print(prediction)
+#file_path = '/home/juan/ML/data/no-fall/2/data2.csv'  # Actualiza esto a la ruta de tu archivo CSV
+#prediction = predict_from_csv(file_path, model, scaler)
+#print(prediction)
